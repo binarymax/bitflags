@@ -1,0 +1,29 @@
+{
+  "name": "bitflags",
+  "version": "0.1.0",
+  "description": "Small library for working with an arbitrarily large array of booleans",
+  "main": "bitflags.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/binarymax/bitflags.git"
+  },
+  "keywords": [
+    "bit",
+    "bitwise",
+    "flag",
+    "boolean"
+  ],
+  "author": "Max Irwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binarymax/bitflags/issues"
+  },
+  "homepage": "https://github.com/binarymax/bitflags",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.3"
+  }
+}
