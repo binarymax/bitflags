@@ -6,8 +6,7 @@ var bitflags = (function(){
 		this._size  = size;
 		this._cols  = 8;
 		this._shift = 3;
-		this._over  = (size%8===0?0:1);
-		this._rows  = (size>>this._shift)+this._over;
+		this._rows  = (size>>this._shift)+1;
 		this._buf   = new ArrayBuffer(this._rows);
 		this._bin   = new Uint8Array(this._buf);
 	};

@@ -12,7 +12,8 @@ npm install bitflags
 ## API
 
 ```
-var flags = require('bitflags');
+var bitflags = require('bitflags');
+var flags = bitflags(1000000); //Creates a million boolean flags
 ```
 
 ### get
@@ -102,4 +103,3 @@ var getSieveOfEratosthenes = function() {
 	return function(n){ return bits.get(n); };
 };
 ```
-
